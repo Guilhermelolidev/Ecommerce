@@ -1,35 +1,27 @@
-<h1 align="center">:file_cabinet: Exemplo de README.md</h1>
+<h1 align="center">:file_cabinet: Ecommerce </h1>
 
-## :memo: Descrição
-Escreva uma descrição do seu projeto
+## :memo: Description
+Simple webshop for selling 3d printer products (English)
+Loja virtual simples para venda de produtos de impressora 3d. (Portuguese)
 
-## :books: Funcionalidades
+## :books: Functionalities
 * <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
 
-## :wrench: Tecnologias utilizadas
-* Tecnologia;
+## :wrench: Technologies
+* Node
+* Express
+* Typescript
+* Pg
+* Bcrypt
+* Jsonwebtoken
+* Helmet
+* Morgan
+* Dotenv
+* Nodemon
 
-## :rocket: Rodando o projeto
-Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
-```
-<linha de comando>
-```
+## :rocket: Running the project
+To run the repository it is necessary to clone it, issue the following command to start the project:
 
-## :soon: Implementação futura
-* O que será implementado na próxima sprint?
+* yarn
+* yarn dev
 
-## :handshake: Colaboradores
-<table>
-  <tr>
-    <td align="center">
-      <a href="http://github.com/tatialveso">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
-        <sub>
-          <b>tatialveso</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-## :dart: Status do projeto
