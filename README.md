@@ -9,8 +9,12 @@
 | Method | Path           | Description           |
 |--------|----------------|-----------------------|
 |POST    | /products      | Create a new product  |
-|GET     | /products      | Get all products      |
-|GET     | /products/{id} | Get product by id     |
+|GET     | /products?page={page}&limit={limit} | Get all products |
+|POST    | /orderProduct  | Insert product in order |
+|DEL     | /orderProduct/{id}  | Remove product from order |
+|GET     | /orderProduct  | Get all orders |
+|POST    | /users  | Create user |
+|POST    | /auth/login  | Login with user |
 
 ## :wrench: Technologies
 * Node
