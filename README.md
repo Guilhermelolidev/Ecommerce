@@ -21,8 +21,8 @@
 * Middlewares for private routes checking user token.
 
 (Portuguese)
-* Middleware para verificar se é usuario ou administrador do sistema.
-* Middlewares para rotas privadas checando token de usuario.
+* Middleware para verificar se é usuário ou administrador do sistema.
+* Middlewares para rotas privadas checando token de usuário.
 
 ## :wrench: Technologies
 * Node
