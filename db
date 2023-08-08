@@ -1,0 +1,46 @@
+CREATE TABLE IF NOT EXISTS public.users
+(
+    iduser integer NOT NULL DEFAULT nextval('users_iduser_seq'::regclass),
+    name character varying(400) NOT NULL,
+    email character varying(100) NOT NULL,
+    password text  NOT NULL,
+    role character varying(10)
+    CONSTRAINT pk_usr_iduser PRIMARY KEY (iduser),
+    CONSTRAINT un_usr_email UNIQUE (email)
+)
+
+CREATE TABLE IF NOT EXISTS public.products
+(
+    idproduct integer NOT NULL DEFAULT nextval('products_idproduct_seq'::regclass),
+    name character varying(250) COLLATE pg_catalog."default" NOT NULL,
+    image text COLLATE pg_catalog."default" NOT NULL,
+    price double precision NOT NULL,
+    CONSTRAINT pk_pdct_idproduct PRIMARY KEY (idproduct)
+)
+
+
+CREATE TABLE IF NOT EXISTS public.orders
+(
+    idorder integer NOT NULL DEFAULT nextval('orders_idorder_seq'::regclass),
+    iduser integer NOT NULL,
+    order_date date NOT NULL,
+    order_total double precision NOT NULL,
+    CONSTRAINT pk_ordr_idorder PRIMARY KEY (idorder),
+    CONSTRAINT fk_ordr_iduser FOREIGN KEY (iduser)
+	REFERENCES public.users (iduser)
+)
+
+CREATE TABLE IF NOT EXISTS public.orders_products
+(
+    idorder integer NOT NULL,
+    idproduct integer NOT NULL,
+    quantity integer NOT NULL DEFAULT 1,
+    CONSTRAINT pk_ordrpdct_idorderproduct PRIMARY KEY (idorder, idproduct),
+    CONSTRAINT fk_ordrpdct_idorder FOREIGN KEY (idorder)
+        REFERENCES public.orders (idorder) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE CASCADE,
+    CONSTRAINT fk_ordrpdct_idproduct FOREIGN KEY (idproduct)
+        REFERENCES public.products (idproduct)
+)
+
