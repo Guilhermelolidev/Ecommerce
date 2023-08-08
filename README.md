@@ -22,7 +22,7 @@
 
 (Portuguese)
 * Middleware para verificar se é usuário ou administrador do sistema.
-* Middlewares para rotas privadas checando token de usuário.
+* Middleware para rotas privadas verificando token de usuário.
 
 ## :wrench: Technologies
 * Node
