@@ -16,11 +16,13 @@
 |POST    | /users  | Create user |
 |POST    | /auth/login  | Login with user |
 
-* User permission checking middleware for type User or system administrator (English)
-* Middleware de verificação de permissão do usuário para o tipo de usuário ou administrador do sistema (Portuguese)
-  
-* Middlewares for private routes checking user token (English)
-* Middlewares para rotas privadas checando token de usuario (Portuguese
+(English)
+* User permission checking middleware for type User or system administrator.
+* Middlewares for private routes checking user token.
+
+(Portuguese)
+* Middleware de verificação de permissão do usuário para o tipo de usuário ou administrador do sistema.
+* Middlewares para rotas privadas checando token de usuario.
 
 ## :wrench: Technologies
 * Node
@@ -35,7 +37,8 @@
 * Nodemon
 
 ## :rocket: Running the project
-To run the repository it is necessary to clone it, issue the following command to start the project:
+To run the repository it is necessary to clone it, issue the following command to start the project: (English)
+Para rodar o repositório é necessário cloná-lo, emita o seguinte comando para iniciar o projeto: (Portuguese)
 
 * yarn
 * yarn dev
