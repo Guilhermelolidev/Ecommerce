@@ -40,8 +40,8 @@
 * To run the repository it is necessary to clone it, issue the following command to start the project: (English)
 * Para rodar o repositório é necessário cloná-lo, emita o seguinte comando para iniciar o projeto: (Portuguese)
 
-* yarn
-* yarn dev
+* 1 - yarn
+* 2 - yarn dev
 
 
 
