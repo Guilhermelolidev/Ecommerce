@@ -5,7 +5,12 @@
 * Loja virtual simples para venda de produtos de impressora 3d. (Portuguese)
 
 ## :books: Functionalities
-* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
+
+| Method | Path           | Description           |
+|--------|----------------|-----------------------|
+|POST    | /products      | Create a new product  |
+|GET     | /products      | Get all products      |
+|GET     | /products/{id} | Get product by id     |
 
 ## :wrench: Technologies
 * Node
@@ -24,4 +29,6 @@ To run the repository it is necessary to clone it, issue the following command t
 
 * yarn
 * yarn dev
+
+
 
