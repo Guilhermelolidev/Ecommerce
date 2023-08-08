@@ -16,6 +16,9 @@
 |POST    | /users  | Create user |
 |POST    | /auth/login  | Login with user |
 
+* User permission checking middleware for type User or system administrator 
+* Middlewares for private routes checking user token
+
 ## :wrench: Technologies
 * Node
 * Express
