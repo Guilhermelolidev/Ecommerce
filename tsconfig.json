@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"target": "es2021",
+		"module": "commonjs",
+		"rootDir": "./src/",
+		"moduleResolution": "node",
+		"baseUrl": "./..",
+		"outDir": "./dist/",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"typeRoots": ["./src/types", "./node_modules/@types"]
+	},
+	"ts-node": {
+		"compilerOptions": {
+			"target": "ES2021",
+			"module": "CommonJS",
+			"baseUrl": "src",
+			"strict": true,
+			"alwaysStrict": true,
+			"declarationMap": true,
+			"checkJs": true,
+			"importHelpers": false,
+			"inlineSourceMap": true,
+			"declaration": true,
+			"isolatedModules": true,
+			"noImplicitAny": true,
+			"outDir": "dist/",
+			"sourceRoot": "src/",
+			"allowJs": true,
+			"removeComments": true,
+			"noImplicitReturns": true,
+			"esModuleInterop": true
+		}
+	}
+}
