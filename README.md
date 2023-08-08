@@ -1,8 +1,8 @@
 <h1 align="center">:file_cabinet: Ecommerce </h1>
 
 ## :memo: Description
-Simple webshop for selling 3d printer products (English)
-Loja virtual simples para venda de produtos de impressora 3d. (Portuguese)
+* Simple webshop for selling 3d printer products (English)
+* Loja virtual simples para venda de produtos de impressora 3d. (Portuguese)
 
 ## :books: Functionalities
 * <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
