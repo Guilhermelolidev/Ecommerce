@@ -16,8 +16,11 @@
 |POST    | /users  | Create user |
 |POST    | /auth/login  | Login with user |
 
-* User permission checking middleware for type User or system administrator 
-* Middlewares for private routes checking user token
+* User permission checking middleware for type User or system administrator (English)
+* Middleware de verificação de permissão do usuário para o tipo de usuário ou administrador do sistema (Portuguese)
+  
+* Middlewares for private routes checking user token (English)
+* Middlewares para rotas privadas checando token de usuario (Portuguese
 
 ## :wrench: Technologies
 * Node
