@@ -17,11 +17,11 @@
 |POST    | /auth/login  | Login with user |
 
 (English)
-* User permission checking middleware for type User or system administrator.
+* Middleware to check if you are user or system administrator.
 * Middlewares for private routes checking user token.
 
 (Portuguese)
-* Middleware de verificação de permissão do usuário para o tipo de usuário ou administrador do sistema.
+* Middleware para verificar se é usuario ou administrador do sistema.
 * Middlewares para rotas privadas checando token de usuario.
 
 ## :wrench: Technologies
