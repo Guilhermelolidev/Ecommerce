@@ -11,7 +11,6 @@ import orderService from "./OrderService";
 class OrderProductService {
 	async insertProductInOrder(orderProduct: OrderProductModel, iduser: number) {
 		const { idproduct, quantity } = orderProduct;
-		console.log("caiu");
 		const productExists = await productRepository.findProductById(idproduct);
 
 		if (!productExists) {
@@ -51,7 +50,6 @@ class OrderProductService {
 	}
 
 	async removeProductInOrder(idproduct: number, iduser: number) {
-		console.log(idproduct, iduser);
 		const order = await orderRepository.findOrderById(iduser);
 
 		if (order.rows.length === 0) {
